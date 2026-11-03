@@ -9,98 +9,193 @@
 **Out-of-network costs**: Role: patient-friendly insurance explainer. Explain how out-of-network charges work and when balance billing can occur. Context: emergency room visit, out-of-network specialist, and urgent care scenario. Output format: scenario summaries, then a five-step cost-projection method, and a one-sentence summary.
 
 **Understanding annual max**: You are an insurance trainer. Explain annual out-of-pocket maximum versus calendar-year maximum in clear terms. Context: family plan with separate deductibles and maxes. Output format: a visual-friendly explanation using a simple numeric example, followed by a quick checklist.
+
 **Formularies and drugs**: Act as a pharmacist-friendly explainer. Describe how formulary tiers affect drug costs and how to check if a prescribed medication is covered. Context: client uses a high-cost specialty drug. Output format: tier explanations, cost ranges for each tier, and steps to request a formulary exception.
+
 **Preventive services**: Role: health insurance educator. List preventive services covered with no cost share under typical plans and explain why they are important. Context: family of four with a standard plan. Output format: bullet list, then a one-paragraph rationale and a quick action list for the client.
+
 **Hospital coverage basics**: You are a benefits counselor. Explain hospital coverage components including in-network benefits, coverage limits, copays, and coinsurance. Context: emergency admission scenario. Output format: narrative plus a simplified cost-projection for a 3-night stay.
+
 **Claims process steps**: Act as a claims navigator. Outline the typical steps to file a health insurance claim, including required documents and common pitfalls. Context: minor accident with multiple providers. Output format: step-by-step checklist with a sample claim timeline.
+
 **Appeals and grievances**: Role: consumer advocate. Explain how to appeal a denied claim and the difference between an appeal and a grievance. Context: denial for a prescribed medication. Output format: flowchart-like list and a template appeal letter.
+
 **Essential plan comparison**: You are a plan comparison consultant. Create a framework to compare two health plans across premium, deductible, max out-of-pocket, and network. Context: family of three choosing between plans A and B. Output format: comparison grid with a recommended decision rule.
+
 **Explain premiums**: Role: cost transparency coach. Explain what factors influence monthly premiums in health insurance. Context: employer-sponsored plans and individual market plans. Output format: bullets with examples and a one-paragraph caution about premium vs out-of-pocket costs.
+
 **Coordination of benefits**: Act as a benefits advisor. Explain how COB works when a client has multiple coverages. Context: primary employer plan plus spouse plan. Output format: simple diagram text and a two-sentence takeaway.
+
 **Understanding coinsurance**: You are a patient advocate. Define coinsurance and contrast it with copays. Context: general care scenario and a high-visit cost scenario. Output format: definitions with numeric examples and a short decision tip.
+
 **Specialist referral process**: Role: care navigation guide. Explain how referrals work under common plans and when you can self-refer. Context: need for a dermatology appointment. Output format: step-by-step guide plus a sample call script.
+
 **Global coverage basics**: Act as international healthcare explainer. If a client travels abroad, discuss whether their plan covers international care. Context: emergency and routine care abroad. Output format: bullet points and a short decision tree.
+
 **Flexible spending accounts**: Role: benefits coach. Explain what an FSA is, how it saves taxes, and typical limits. Context: employee with healthcare and dependent care FSA options. Output format: concise definition, examples of eligible expenses, and a one-paragraph caution.
+
 **Health savings account**: You are a consumer advisor. Explain HSA advantages, eligibility, and how to use funds. Context: high-deductible health plan. Output format: clear steps to maximize benefits and a simple budgeting example.
+
 **Catastrophic plans**: Role: policy explainer. Describe the purpose and limits of catastrophic health plans for specific audiences. Context: young healthy adult vs. family with high risk. Output format: risk-versus-benefit comparison and a one-paragraph recommendation.
+
 **Emergency vs routine care**: Act as a care cost explainer. Differentiate emergency care coverage from routine care and explain potential charges. Context: ER visit vs appointment with primary care. Output format: side-by-side cost expectations and a short decision guide.
+
 **Explanation for brokers**: Role: broker trainer. Provide a clear, client-focused explanation script for brokers to use in initial consultations. Context: client evaluating employer plans vs individual options. Output format: script with opening, discovery questions, and closing.
+
 **Annual enrollment tips**: You are an enrollment coach. Share best practices for annual enrollment season for clients. Context: small business clients and individuals. Output format: checklist and a 60-second client-ready pitch.
+
 **Cost sharing examples**: Act as a financial educator. Provide concrete cost-sharing examples for common services under a typical plan. Context: primary visit, specialist visit, imaging. Output format: a simple table with patient payments and insurer contributions.
+
 **Policy term glossary**: Role: glossary creator. Build a concise glossary of health insurance terms with plain-language definitions. Context: new buyers. Output format: terms with 1-2 sentence definitions and a short one-line example for each.
+
 **Outpatient benefits**: You are an outpatient benefits guide. Explain outpatient coverage differences between plans and typical cost shares. Context: lab tests and imaging. Output format: bullet points with scenario-based examples.
+
 **Wellness program perks**: Role: wellness program explainer. Describe typical wellness incentives and how to maximize them within a plan. Context: employee with several programs. Output format: bullet list and a one-paragraph note on verification.
+
 **Dependent coverage basics**: Act as family benefits advisor. Explain dependent coverage rules, including age limits and student provisions. Context: adult child returning to college. Output format: summary and a 6-question eligibility checklist.
+
 **Grace period explanations**: Role: policy explainer. Explain grace periods for premium payment and coverage consequences of missing payments. Context: small business plan. Output format: bullet list and a short scenario.
+
 **Medical necessity**: You are a clinical billing educator. Define medical necessity and why it matters for coverage decisions. Context: test and procedure approval. Output format: definition, examples, and a simple decision flow.
+
 **Explanation for agents**: Role: agent-focused explainer. Provide a concise, client-friendly summary of a plan’s key benefits for an agent to share. Context: quick consult before follow-up. Output format: 5 bullet points and a one-line next-step.
+
 **Coinsurance examples**: Act as a cost coach. Give concrete coinsurance examples for hospital and physician services. Context: typical services with costs and plan coinsurance rate. Output format: two mini-scenarios with calculations.
+
 **Preventive care reminders**: Role: patient communications writer. Draft patient-friendly reminders about preventive services due this year under a typical plan. Context: family with children. Output format: five reminder messages with CTAs.
+
 **Claim denial reasons**: You are a denial analyzer. List common reasons for claim denials and how to respond. Context: prescription denial and service denial. Output format: bullet list and a short templated appeal paragraph.
+
 **Urgent care cost split**: Act as a cost estimator. Show how urgent care costs split between plan and patient. Context: walk-in visit for minor injury. Output format: cost split table and follow-up cost notes.
+
 **Chronic disease support**: Role: care navigator. Explain how plans support chronic disease management and deductible considerations. Context: patient with diabetes. Output format: benefits summary and a 1-page care plan checklist.
+
 **PPO vs HDHP**: You are a plan advisor. Compare PPO and HDHP for a family, focusing on premiums, deductibles, and flexibility. Output format: decision matrix and a short guidance paragraph.
+
 **Rx coverage check**: Role: formulary assistant. Provide a step-by-step method to verify if a prescription is covered and at what tier. Context: new medication with specialty status. Output format: checklist with example fill-ins.
+
 **Medical claims timeline**: Act as claims tracker. Create a typical 8-week claims timeline from submission to payout. Context: multiple providers and plan changes. Output format: calendar-like list with milestones.
+
 **Maximum out-of-pocket**: You are a financial health coach. Define max out-of-pocket and illustrate with a family plan example. Context: high medical needs. Output format: chart-like text and a quick planning tip.
+
 **Explanation for sales scripts**: Role: sales scriptwriter. Write a client-facing script summarizing key benefits for a health plan during first contact. Context: small business client. Output format: script with opening, needs discovery, and closing lines.
+
 **Premium vs coverage value**: Act as value consultant. Help a client assess if higher premium yields proportionate value. Context: choose between two plans with different premiums. Output format: value comparison table and a recommended action.
+
 **Student plan basics**: You are a student plan explainer. Explain how student health plans work and when a parent’s plan might apply. Context: college freshman. Output format: concise guide with checklists.
+
 **Cobra transition tips**: Role: transition advisor. Explain COBRA options after job loss or departure. Context: two-month grace period and premium costs. Output format: step-by-step guide and a sample message to notifying HR.
+
 **Low-income subsidies**: You are a benefits advisor. Outline subsidies or help programs available for low-income individuals and how to apply. Context: marketplace plan. Output format: bullet list with eligibility criteria and application steps.
+
 **Plan amendment explanations**: Act as policy explainer. Explain how mid-year plan changes affect coverage, premiums, and networks. Context: employer updates benefits mid-year. Output format: concise impact notes and a Q&A section.
+
 **Urgent care vs ER costs**: Role: cost educator. Compare costs and coverage differences between urgent care and emergency room visits. Context: patient concerned about bills. Output format: side-by-side cost examples and a summary.
+
 **Telemedicine coverage**: You are a digital health explainer. Describe telemedicine coverage rules, copays, and when it is preferred. Context: remote consultation scenario. Output format: bullet list with a quick decision guide.
+
 **International provider search**: Act as international benefits helper. Explain how to verify coverage for providers abroad and what to ask the insurer. Context: travel-heavy client. Output format: checklist and sample email to insurer.
+
 **Cost estimator tool use**: Role: tool guide. Show how to use a cost estimator tool to estimate annual health costs under a plan. Context: family of four. Output format: step-by-step usage plus a sample output interpretation.
+
 **Baby and maternity cover**: You are a maternity benefits advisor. Explain maternity coverage basics and cost implications. Context: expecting parent evaluating plans. Output format: key benefit list and a decision checklist.
+
 **Chiropractic and PT limits**: Role: service limits explainer. Describe typical limits for chiropractic care and physical therapy and how to plan visits. Context: post-injury recovery. Output format: table of limits and scheduling tips.
+
 **Dental vs health coverage**: Act as benefits broker. Distinguish dental benefits from medical, and explain how each affects overall cost. Context: family with mixed coverage. Output format: quick comparison and integration tips.
+
 **Pediatric coverage basics**: You are a pediatric benefits guide. Explain how child coverage works, including age limits and dependent rules. Context: family with school-age children. Output format: kid-focused explainer with a 5-question FAQ.
+
 **Senior plan basics**: Role: senior benefits coach. Explain common senior health plan features, including Medicare interactions. Context: client approaching retirement. Output format: plain-language overview and a simple decision tree.
+
 **Plan waiting periods**: Act as policy explainer. Define waiting periods and how they affect new enrollees. Context: joining a plan mid-year. Output format: simple definitions and a 2-step plan to minimize gaps.
+
 **Plan finder questions**: You are a shopping guide. List essential questions to ask when evaluating health plans. Context: self-employed individual. Output format: ordered questions with quick rationale.
+
 **Preventive cost sharing**: Role: cost explainer. Show how preventive services are covered and when costs apply. Context: routine annual checkups. Output format: bullet list and a one-page client handout.
+
 **Enrollment pitfalls**: Act as enrollment coach. Identify common mistakes during enrollment and how to avoid them. Context: webcast for agents. Output format: list of pitfalls with corrective actions.
+
 **Care coordination services**: You are a care management explainer. Describe care coordination benefits and how they help chronic conditions. Context: high-risk patient. Output format: benefits summary and a quick action plan.
+
 **Wellness incentives steps**: Role: incentive navigator. Explain how to earn and redeem wellness rewards within a plan. Context: employee program with multiple rewards. Output format: step-by-step guide and a sample reward summary.
+
 **Chat with an agent**: Act as a customer service chat trainer. Provide a concise, helpful chat script to answer common health plan questions. Context: general inquiries. Output format: dialogue flow with example user questions.
+
 **Policy change alerts**: You are a compliance communicator. Draft a client-friendly alert when a plan changes benefits or networks. Context: mid-year update. Output format: short notice with key changes and a call to action.
+
 **Explanation for brokers 2**: Role: broker toolkit. Create a second client-friendly benefits summary for brokers to share after initial contact. Context: follow-up meeting. Output format: two-page digest with visuals.
+
 **Cost containment tips**: You are a cost-containment advisor. Provide practical tips to reduce health costs without sacrificing care. Context: family on a tight budget. Output format: list with immediate actions and a risk note.
+
 **Network adequacy checks**: Act as network auditor. Explain how to verify network adequacy and how to use provider directories. Context: new plan evaluation. Output format: checklist with a sample directory search.
+
 **Specialist appointment scripts**: Role: appointment facilitator. Share a quick script for requesting a specialist appointment and ensuring coverage. Context: dermatology referral. Output format: script with confirmations and questions.
+
 **Chronic care plan template**: You are a care planner. Provide a simple, reusable template for creating a chronic care plan that aligns with insurance benefits. Context: patient with hypertension. Output format: fill-in fields and a one-page plan.
+
 **Medical necessity examples 2**: Act as clinical billing helper. Give two more concrete medical necessity examples and show how they impact approval. Context: imaging study and lab test. Output format: examples with brief rationale.
+
 **Plan vs employer option**: Role: option comparer. Help a client compare an employer plan versus a private marketplace plan. Context: similar coverage, different costs. Output format: pros/cons and a concluding recommendation.
+
 **Network referral rules**: You are a network rules explainer. Describe how referrals work in managed care and when you can self-refer. Context: need for a sleep study. Output format: concise rules and a short checklist.
+
 **Preauthorization basics**: Act as authorization nurse. Explain preauthorization concepts and why insurers require them. Context: surgical procedure. Output format: steps to obtain approval and a verification template.
+
 **Yearly plan refresh**: Role: benefits updater. Outline steps for clients to refresh their health plan during open enrollment. Context: mid-year life events. Output format: 6-7 practical steps.
+
 **Explanation for retirees**: You are a retirement benefits guide. Explain how health insurance changes after retirement and what to watch for. Context: transitioning from employer plan. Output format: checklist and a sample letter to insurer.
+
 **Medical travel tips**: Act as travel health advisor. Explain how to manage coverage when traveling and what to do for medical emergencies abroad. Context: long vacation overseas. Output format: quick guide with emergency contacts.
+
 **High-deductible nuances**: Role: HDHP explainer. Detail nuances of high-deductible plans, including saving strategies and best-use cases. Context: family with sporadic healthcare needs. Output format: bullet points and a mini-reserve plan.
+
 **Explanation visuals**: You are a visuals coach. Provide ideas for simple visuals that explain plan benefits to clients. Context: in-person meeting and virtual pitch. Output format: 4-5 captioned visuals ideas.
+
 **Cost-sharing calculator**: Act as calculator guide. Describe how to build a simple cost-sharing calculator for a client to estimate annual costs. Context: family with two kids. Output format: formulaic steps and a sample calculation.
+
 **Enrollment denial reasons**: Role: enrollment examiner. List common reasons for enrollment denials and how to fix them. Context: marketplace plan. Output format: bullet list and a one-paragraph remediation plan.
+
 **Value-based care notes**: You are a value-based care explainer. Describe how value-based care influences plan design and patient outcomes. Context: employer group. Output format: short explainer and 3 FAQs.
+
 **Prepaying premiums**: Role: payment advisor. Explain the impact of prepaying premiums and automatic payments on coverage. Context: small business plan. Output format: quick tips and a risk warning.
+
 **Policy terminology 2**: Act as glossary builder. Add five more plain-language terms to a health plan glossary geared toward agents. Context: new agents. Output format: term-meaning pairs with brief examples.
+
 **Check eligibility steps**: You are an eligibility checker. Provide steps to confirm client eligibility for a plan and benefits. Context: new hires. Output format: checklist with required documents.
+
 **Subsidy eligibility**: Role: subsidy explainer. Explain how federal subsidies affect premiums and who qualifies. Context: marketplace enrollment. Output format: bullet list and a decision tree.
+
 **Pharmacy benefit details**: Act as PBM explainer. Outline how pharmacy benefits work, including tiers, caps, and mail-order options. Context: chronic medication user. Output format: structured notes and a quick action guide.
+
 **Open enrollment scripts**: You are a sales trainer. Provide a client-facing open enrollment script tailored for small businesses. Context: annual renewal. Output format: dialogue with discovery and next steps.
+
 **Underserved markets tips**: Role: outreach advisor. Share best-practice prompts to educate underserved communities about health insurance options. Context: community event. Output format: talking points and a 1-page handout.
+
 **Plan exclusion notes**: Act as policy clarifier. Explain common plan exclusions and how they affect coverage decisions. Context: imaging, dental, and alternative therapies. Output format: bullet list with examples.
+
 **Utilization review basics**: Role: utilization nurse. Define utilization review and how it affects care approvals. Context: specialist referral. Output format: simple flow plus two example scenarios.
+
 **Plan termination process**: You are a compliance guide. Describe how plan terminations work and how to communicate with clients. Context: plan renewal failure. Output format: steps and a short templated message.
+
 **Client-friendly benefit notes**: Act as note writer. Produce a client-friendly summary of benefits for a plan under consideration. Context: first meeting. Output format: one-page benefit snapshot.
+
 **Appeals templates**: Role: appeal writer. Provide an editable template for appealing a denied service or medication. Context: first-time appeal. Output format: letter template with placeholders.
+
 **Plan performance metrics**: You are a data translator. Explain basic health plan performance metrics in plain terms for clients. Context: annual report discussion. Output format: simple metric explanations and a FAQ.
+
 **Emergency prep checklist**: Act as emergency planner. Create a client-friendly emergency preparation checklist focusing on health plan access. Context: natural disaster scenario. Output format: checklist with contact info template.
+
 **Cost-free coverage reminders**: Role: reminder bot. Draft reminders about coverage rules that save money, like cost-free preventive services. Context: quarterly client outreach. Output format: 4 reminder messages with CTAs.
+
 **Medical record requests**: You are a records coordinator. Explain how to request medical records from providers for insurance purposes. Context: patient switching plans. Output format: steps and a fillable request form.
+
 **Telehealth etiquette**: Role: telehealth coach. Provide best-practice etiquette for patients during virtual visits and how it affects coverage. Context: remote consultation. Output format: tips and a one-page client tip sheet.
+
 **Coverage for exams**: Act as preventive care explainer. Clarify coverage for annual physical exams and related tests. Context: adult client. Output format: bullet list and a sample appointment message.
+
 **Policy update Q&A**: You are a Q&A host. Create a brief FAQ section answering common questions about a plan update. Context: new benefits. Output format: 8 questions with concise answers.
+
 **Open enrollment recap**: Role: enrollment recap writer. Provide a concise recap for clients who attended an open enrollment session. Context: after meeting. Output format: summary bullets and action items.
+
 **Client-ready summary**: You are a benefits storyteller. Produce a final client-ready one-page summary of key health plan benefits, costs, and next steps. Context: final decision day. Output format: clean summary with call-to-action.
