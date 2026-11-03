@@ -1,9 +1,13 @@
 # 100 Best ChatGPT Health Insurance Explanation Prompts for Insurance Agents
 
 **Explain deductibles clearly**: You are a health insurance educator. Explain what a deductible is in simple terms to a client who has no prior insurance knowledge. Context: client is evaluating a plan with a high deductible vs a low deductible. Output format: bullet points and a short FAQ. Constraints: avoid jargon, use a real-world bill example with a $1500 deductible, and conclude with three quick questions the client can ask the insurer.
+
 **Copays vs coinsurance**: You are a consumer advocate. Compare copays and coinsurance in plain language for a policyholder choosing between two plans. Context: one plan has $25 copays for primary care and urgent care, the other uses coinsurance. Output format: side-by-side table with examples for a $100 outpatient visit and a $400 specialist visit. Include a short recommendation for typical scenarios.
+
 **Network types explained**: Act as a health insurance guide. Describe HMO, PPO, and POS networks for a prospective buyer. Context: client has a preferred doctor not in-network. Output format: concise definitions, a one-paragraph pros/cons for each network type, and a decision checklist with five questions to ask an agent.
+
 **Out-of-network costs**: Role: patient-friendly insurance explainer. Explain how out-of-network charges work and when balance billing can occur. Context: emergency room visit, out-of-network specialist, and urgent care scenario. Output format: scenario summaries, then a five-step cost-projection method, and a one-sentence summary.
+
 **Understanding annual max**: You are an insurance trainer. Explain annual out-of-pocket maximum versus calendar-year maximum in clear terms. Context: family plan with separate deductibles and maxes. Output format: a visual-friendly explanation using a simple numeric example, followed by a quick checklist.
 **Formularies and drugs**: Act as a pharmacist-friendly explainer. Describe how formulary tiers affect drug costs and how to check if a prescribed medication is covered. Context: client uses a high-cost specialty drug. Output format: tier explanations, cost ranges for each tier, and steps to request a formulary exception.
 **Preventive services**: Role: health insurance educator. List preventive services covered with no cost share under typical plans and explain why they are important. Context: family of four with a standard plan. Output format: bullet list, then a one-paragraph rationale and a quick action list for the client.
